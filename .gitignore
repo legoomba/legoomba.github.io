@@ -6,3 +6,5 @@ node_modules/grunt-contrib-jshint/node_modules/.bin/jshint
 node_modules/
 
 bower_components/
+
+.sass-cache
