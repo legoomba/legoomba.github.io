@@ -1,7 +1,7 @@
 {
   "name": "legoomba.github.io",
   "version": "1.0.0",
-  "description": "resume site",
+  "description": "personal site",
   "main": "index.html",
   "scripts": {
     "test": "test_cmd"
@@ -27,6 +27,6 @@
     "grunt-contrib-nodeunit": "^0.4.1",
     "grunt-contrib-sass": "^0.9.2",
     "grunt-contrib-uglify": "^0.9.1",
-    "grunt-postcss": "^0.5.5"
+    "grunt-postcss": "^0.8.0"
   }
 }
