@@ -66,6 +66,34 @@
 		font-size: 8pt;
 		font-weight: normal;
 	}
+	
+	@media only screen and (max-width: 480px) {
+		html{
+			background: url('resources/images/mobile-back.jpg') no-repeat center center fixed;
+	  		  background-size: cover;
+	  		  -moz-background-size: cover;
+	  		  -o-background-size: cover;
+	  		  -webkit-background-size: cover;
+		}
+		div.wrapper{
+			position: inherit;
+			padding-top: 75px;
+		}
+		div.content-main{
+			width: 265px;
+			margin-right: 0px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	
+	@media only screen and (max-width: 320px) {
+		div.wrapper{
+			padding-top: 25px;
+		}
+	}
+	
+	
 	</style>
 </head>
 <body>
