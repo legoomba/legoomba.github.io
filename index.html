@@ -2,43 +2,69 @@
 <html>
 <head>
 	<title>JR Thompson</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet">
+	<meta name="viewport" content="width=device-width" />
 	<style>
+	a{
+		color: #FFF;
+		text-decoration: none;
+		font-size: 18pt;
+		font-weight: bold;
+	}
+	html{
+		background: url('resources/images/desk-back.jpg') no-repeat center center fixed;
+		  background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  -webkit-background-size: cover;
+	}
 	body{
-			font-family: Helvetica, Arial, Sans-serif;
-			background-color: #FFF;
-			color: #444;
+		font-family: 'Lato', sans-serif;
+		font-weight: bold;
+		color: #FFF;
 	}
 	div.wrapper{
-		padding-top: 75px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
 	}
 	div.content-main{
 		width: 300px;
-		margin-left: auto;
-		margin-right:auto;
 		text-align: center;
+		background-color: rgba(0,0,0,.7);
+		padding: 20px;
+		border-radius: 25px;
+		margin-bottom: 50px;
+		margin-right: 180px;
 	}
 	div.content-main > span{
 		font-size: 32pt;
 	}
 	div.links-wrapper{
 		padding-top: 55px;
+		width: 156px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
 	}
 	div.links-wrapper div{
 		padding-bottom: 25px;
 	}
 	div.links-wrapper div a{
-		text-decoration: none;
-		color: #444;
-		font-size: 18pt;
-		font-weight: bold;
+
 	}
 	div.links-wrapper img{
 		height: 50px;
 	}
 	div.footer{
+		padding-top: 50px;
+		text-align: right;
+		padding-bottom: 5px;
+		padding-right: 5px;
+	}
+	div.footer, div.footer a{
 		font-size: 8pt;
-		padding-top: 300px;
-		text-align: center;
+		font-weight: normal;
 	}
 	</style>
 </head>
@@ -46,17 +72,27 @@
 	<div class='wrapper'>
 		<div class='content-main'>
 			<span>JR Thompson</span>
+			<p>
+				Not the agency...the developer.
+			</p>
 			<div class='links-wrapper'>
 				<div>
 					<a href='resources/files/JR_Thompson_Resume.pdf'>
-						<img src='resources/images/PDF Filled-100.png' style='padding-right: 5px; vertical-align: middle;'/>
-						<span>RESUME</span></a>
+						<img src='resources/images/PDF-100-2.png'/>
+						<span style='padding-left: 4px;'>resume</span>
+					</a>
 				</div>
 				<div>
-					<a href='https://www.linkedin.com/in/keith-thompson-jr'><img src='resources/images/Logo-2C-128px-R.png'/></a>
+					<a href='https://www.linkedin.com/in/keith-thompson-jr'>
+						<img src='resources/images/In-White-128px-R.png'/>
+						<span>linked-in</span>
+					</a>
 				</div>
 				<div>
-					<a href='https://github.com/legoomba'><img src='resources/images/GitHub-Mark-120px-plus.png'/></a>
+					<a href='https://github.com/legoomba'>
+						<img src='resources/images/GitHub-Mark-Light-120px-plus.png'/>
+						<span style='padding-left: 5px;'>github</span>
+					</a>
 				</div>
 			</div>
 		</div>
